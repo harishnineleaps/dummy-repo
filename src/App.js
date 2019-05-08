@@ -22,7 +22,7 @@ this.state={item:'',filter:new Set(),list:[]}
 // this.setState({filter:this.state.filter.delete(e.target.value)})
     }
     else {
-      // this.setState({filter:this.state.filter.add(e.target.value)})
+      // this.setState({filteryy:this.state.filter.add(e.target.value)})
       this.filter.add(e.target.value)
 
     }
