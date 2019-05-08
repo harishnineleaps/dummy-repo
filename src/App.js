@@ -58,7 +58,7 @@ this.setState({list:Array.from(this.filter)})
     <div className="App">
       <header className="App-header">
      <Checkbox data={data} onChange={this.onChange}/>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading... Data...</div>}>
 <div className="wrapper">
 <Card data={movie}/>
 </div>
